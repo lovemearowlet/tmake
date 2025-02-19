@@ -1,5 +1,5 @@
 # tmake
-A simple, hyper-basic alternitive to make using toml and c++
+A simple, hyper-basic, small (1.3 mb) alternitive to make using toml and c++
 # install:
 ```bash
 git clone https://github.com/lovemearowlet/tmake.git
