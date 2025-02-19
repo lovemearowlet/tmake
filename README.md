@@ -5,7 +5,7 @@ A simple, hyper-basic alternitive to make using toml and c++
 git clone https://github.com/lovemearowlet/tmake.git
 cd tmake
 make
-make install
+su -c "make install"
 ```
 # usage:
 to use it do tmake target but replace target with like install or whatever the target is
