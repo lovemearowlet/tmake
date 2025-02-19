@@ -19,13 +19,13 @@ tmake <target>
 # the tmake.toml file:
 to use tmake you need a tmake.toml file, it can be made like this (as of now):
 ```toml
-<target> = [
-  <command>
-  <command2>
-# And so on
+target = [
+  "command"
+  "command2"
+# And so on...
 ]
 ```
-now obv you make "" the commands and change the <target> to the one the user must use for example:
+now obv you make the commands the real ones and change the target to the one the user must use for example:
 ```toml
 install = [
   "gcc -o test test.c"
